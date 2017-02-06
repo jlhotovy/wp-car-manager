@@ -1,0 +1,66 @@
+/*
+Theme Name:     twentyseventeen Child
+Theme URI:      http://http://ec2-54-208-84-234.compute-1.amazonaws.com/
+Description:    A child theme for the twentyseventeen WordPress theme. This child theme simply includes 2 files : style.css to add your custom css and functions.php where you can extend Customizr's core code. In order to keep your code as clean and flexible as possible, try to use Customizr's hooks API for your customizations. Do something awesome and have fun !
+Author:         Jerry Hotovy
+Author URI:     http://http://ec2-54-208-84-234.compute-1.amazonaws.com/
+Template:       twentyseventeen
+*/
+
+/* Your awesome customizations start right here !
+-------------------------------------------------------------- */
+
+/* Submission form changes */
+#wpcm-account-sign-in {
+  display: none;
+}
+
+/* Submission form changes */
+#content.site-content .wpcm-fieldset-title {
+  display: none;
+}
+#content.site-content .wpcm-fieldset-condition {
+  display: none;
+}
+#content.site-content .wpcm-fieldset-frdate {
+//  display: none;
+}
+#content.site-content .wpcm-fieldset-fuel_type {
+    display: none;
+}
+#content.site-content .wpcm-fieldset-color {
+    display: none;
+}
+#content.site-content .wpcm-fieldset-body_style {
+    display: none;
+}
+#content.site-content .wpcm-fieldset-transmission {
+    display: none;
+}
+#content.site-content .wpcm-fieldset-doors {
+    display: none;
+}
+#content.site-content .wpcm-fieldset-engine {
+    display: none;
+}
+#content.site-content .wpcm-fieldset-power_kw {
+    display: none;
+}
+#content.site-content .wpcm-fieldset-power_hp {
+    display: none;
+}
+#wpcm-button {
+    background-color: red;
+}
+
+/* remove "optional" from price and mileage */
+.wpcm-car-form fieldset label small {
+   display: none; 
+}
+
+h1 {
+    font-size: 2em;
+}
+h1.entry-title {
+    font-size: 3em;
+}

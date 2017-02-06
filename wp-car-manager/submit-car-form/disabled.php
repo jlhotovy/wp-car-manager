@@ -1,0 +1,1 @@
+<?php _e( 'You must be logged in to add a car listing', 'wp-car-manager');?><a href="/login/" class="wpcm-button wpcm-button-dashboard-add-new" style="margin-left: 20px;">Login</a> 
